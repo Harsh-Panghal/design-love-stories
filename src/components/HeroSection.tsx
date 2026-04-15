@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import heroBg from "@/assets/hero-bg.jpg";
+import logo from "@/assets/logo.png";
 
 export function HeroSection() {
   return (
@@ -9,7 +10,7 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-ivory/70 via-ivory/50 to-ivory/90" />
       </div>
       <div className="relative z-10 text-center px-4 max-w-3xl mx-auto animate-fade-up">
-        <p className="text-sm tracking-[0.3em] uppercase text-gold mb-4 font-body">Pixel & Petal Studio</p>
+        <img src={logo} alt="Pixel & Petal" className="h-28 sm:h-36 md:h-44 w-auto mx-auto mb-6" />
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-foreground leading-tight mb-6">
           Designing love stories,<br />
           <span className="text-gold-gradient italic">one pixel at a time.</span>
