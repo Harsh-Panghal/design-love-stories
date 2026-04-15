@@ -32,11 +32,15 @@ export const Route = createRootRoute({
       { title: "Pixel & Petal — Custom Wedding Design Studio" },
       { name: "description", content: "Bespoke digital wedding & event designs crafted with love." },
       { name: "author", content: "Pixel & Petal" },
-      { property: "og:title", content: "Pixel & Petal" },
-      { property: "og:description", content: "Designing love stories, one pixel at a time." },
+      { property: "og:title", content: "Pixel & Petal — Custom Wedding Design Studio" },
+      { property: "og:description", content: "Bespoke digital wedding & event designs crafted with love." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Pixel & Petal — Custom Wedding Design Studio" },
+      { name: "twitter:description", content: "Bespoke digital wedding & event designs crafted with love." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/HqACFkQqQCdkhZHXVIbyajne1Ed2/social-images/social-1776235227555-pixel_petal_no_bg.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/HqACFkQqQCdkhZHXVIbyajne1Ed2/social-images/social-1776235227555-pixel_petal_no_bg.webp" },
     ],
     links: [
       {
