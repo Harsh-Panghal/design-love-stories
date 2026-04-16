@@ -13,52 +13,26 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Pixel & Petal",
-  "alternateName": ["Pixel and Petal", "pixelandpetal", "Pixel&Petal", "Pixel & Petal Studio", "Pixel and Petal Studio"],
+  "alternateName": ["Pixel and Petal", "pixelandpetal", "Pixel&Petal"],
   "url": "https://pixelandpetal.online",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "https://storage.googleapis.com/gpt-engineer-file-uploads/HqACFkQqQCdkhZHXVIbyajne1Ed2/social-images/social-1776235227555-pixel_petal_no_bg.webp",
-    "width": 512,
-    "height": 512
-  },
-  "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/HqACFkQqQCdkhZHXVIbyajne1Ed2/social-images/social-1776235227555-pixel_petal_no_bg.webp",
-  "description": "Pixel & Petal is a custom digital wedding design studio specializing in e-invites, wedding monograms, digital caricatures, party stationery, and full branding packages. Also known as Pixel and Petal.",
-  "foundingDate": "2024",
-  "knowsAbout": ["wedding design", "e-invites", "wedding monograms", "digital caricatures", "wedding stationery", "branding packages"],
+  "logo": "https://storage.googleapis.com/gpt-engineer-file-uploads/HqACFkQqQCdkhZHXVIbyajne1Ed2/social-images/social-1776235227555-pixel_petal_no_bg.webp",
+  "description": "Pixel & Petal is a custom digital wedding design studio specializing in e-invites, wedding monograms, digital caricatures, party stationery, and full branding packages.",
   "sameAs": [
     "https://instagram.com/pixelandpetal"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer service",
-    "availableLanguage": ["English", "Hindi"],
-    "url": "https://pixelandpetal.online/enquire"
-  },
-  "makesOffer": [
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-Invite Suite", "description": "Custom digital wedding invitations with matching itinerary and details cards" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wedding Monograms", "description": "Bespoke wedding monogram and logo design" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digital Caricatures", "description": "Custom digital couple caricature illustrations" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Party Stationery", "description": "Custom party games and stationery design" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Full Branding Package", "description": "Complete wedding branding and identity package" } }
-  ]
+    "availableLanguage": ["English", "Hindi"]
+  }
 };
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Pixel & Petal",
-  "alternateName": ["Pixel and Petal", "pixelandpetal", "Pixel&Petal", "Pixel and Petal Studio"],
-  "url": "https://pixelandpetal.online",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Pixel & Petal",
-    "alternateName": ["Pixel and Petal", "pixelandpetal"]
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://pixelandpetal.online/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+  "alternateName": ["Pixel and Petal", "pixelandpetal"],
+  "url": "https://pixelandpetal.online"
 };
 
 const breadcrumbSchema = {
