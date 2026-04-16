@@ -56,9 +56,9 @@ export function ServicesSection() {
               style={{ animationDelay: `${i * 0.1}s` }}
             >
               <div className="relative h-56 overflow-hidden">
-                <img
+                 <img
                   src={s.img}
-                  alt={s.title}
+                  alt={`${s.title} — Pixel & Petal custom wedding design`}
                   loading="lazy"
                   width={800}
                   height={600}

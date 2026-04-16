@@ -7,14 +7,31 @@ export const Route = createFileRoute("/enquire")({
   component: EnquirePage,
   head: () => ({
     meta: [
-      { title: "Enquire — Pixel & Petal | Custom Wedding Design Enquiry" },
-      { name: "description", content: "Fill out the Pixel & Petal design enquiry form. Tell us about your dream wedding design — e-invites, monograms, caricatures, or full branding packages." },
-      { property: "og:title", content: "Enquire — Pixel & Petal | Custom Wedding Design" },
+      { title: "Enquire — Pixel & Petal | Book Your Custom Wedding Design" },
+      { name: "description", content: "Fill out the Pixel & Petal (Pixel and Petal) design enquiry form. Tell us about your dream wedding design — e-invites, monograms, caricatures, or full branding packages." },
+      { property: "og:title", content: "Enquire — Pixel & Petal | Book Your Custom Wedding Design" },
       { property: "og:description", content: "Start your bespoke wedding design journey with Pixel & Petal. Fill out our enquiry form today." },
       { property: "og:url", content: "https://pixelandpetal.online/enquire" },
+      { property: "og:site_name", content: "Pixel & Petal" },
+      { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Enquire — Pixel & Petal | Book Your Custom Wedding Design" },
+      { name: "twitter:description", content: "Start your bespoke wedding design journey with Pixel & Petal." },
     ],
     links: [
       { rel: "canonical", href: "https://pixelandpetal.online/enquire" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pixelandpetal.online" },
+            { "@type": "ListItem", "position": 2, "name": "Enquire", "item": "https://pixelandpetal.online/enquire" }
+          ]
+        }),
+      },
     ],
   }),
 });
