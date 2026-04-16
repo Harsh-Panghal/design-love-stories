@@ -1,8 +1,5 @@
 {
-  "version": 2,
-  "framework": "vite",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/dist/server/index.js" }
-  ],
-  "outputDirectory": "dist"
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
