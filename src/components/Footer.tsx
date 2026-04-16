@@ -63,7 +63,7 @@ export function Footer() {
           </div>
 
           <p className="text-muted-foreground text-xs font-body tracking-wider">
-            © {new Date().getFullYear()} Pixel & Petal Studio. All rights reserved.
+            © {new Date().getFullYear()} <span itemScope itemType="https://schema.org/Organization"><span itemProp="name">Pixel &amp; Petal</span></span> Studio. All rights reserved.
           </p>
         </div>
       </div>
