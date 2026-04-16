@@ -6,11 +6,11 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-ivory/80 backdrop-blur-md border-b border-border/50">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-ivory/80 backdrop-blur-md border-b border-border/50" aria-label="Main navigation">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-          <Link to="/" className="flex items-center">
-            <img src={logo} alt="Pixel & Petal" className="h-12 sm:h-16 w-auto" />
+          <Link to="/" className="flex items-center" aria-label="Pixel & Petal — Home">
+            <img src={logo} alt="Pixel & Petal logo" className="h-12 sm:h-16 w-auto" />
           </Link>
 
           {/* Desktop */}
