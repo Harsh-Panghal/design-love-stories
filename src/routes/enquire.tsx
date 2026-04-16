@@ -7,8 +7,14 @@ export const Route = createFileRoute("/enquire")({
   component: EnquirePage,
   head: () => ({
     meta: [
-      { title: "Enquire — Pixel & Petal" },
-      { name: "description", content: "Fill out our design enquiry form and let us bring your wedding vision to life." },
+      { title: "Enquire — Pixel & Petal | Custom Wedding Design Enquiry" },
+      { name: "description", content: "Fill out the Pixel & Petal design enquiry form. Tell us about your dream wedding design — e-invites, monograms, caricatures, or full branding packages." },
+      { property: "og:title", content: "Enquire — Pixel & Petal | Custom Wedding Design" },
+      { property: "og:description", content: "Start your bespoke wedding design journey with Pixel & Petal. Fill out our enquiry form today." },
+      { property: "og:url", content: "https://pixelandpetal.online/enquire" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://pixelandpetal.online/enquire" },
     ],
   }),
 });

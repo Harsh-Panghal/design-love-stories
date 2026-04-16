@@ -6,13 +6,13 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
-        <img src={heroBg} alt="Elegant wedding stationery" width={1920} height={1080} className="w-full h-full object-cover" />
+        <img src={heroBg} alt="Pixel & Petal — elegant wedding stationery and digital design" width={1920} height={1080} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-ivory/70 via-ivory/50 to-ivory/90" />
       </div>
       <div className="relative z-10 text-center px-4 max-w-3xl mx-auto animate-fade-up">
-        <img src={logo} alt="Pixel & Petal" className="h-28 sm:h-36 md:h-44 w-auto mx-auto mb-6" />
+        <img src={logo} alt="Pixel & Petal — custom digital wedding design studio logo" className="h-28 sm:h-36 md:h-44 w-auto mx-auto mb-6" />
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-foreground leading-tight mb-6">
-          Designing love stories,<br />
+          <span className="sr-only">Pixel & Petal — </span>Designing love stories,<br />
           <span className="text-gold-gradient italic">one pixel at a time.</span>
         </h1>
         <p className="text-muted-foreground text-base sm:text-lg max-w-xl mx-auto mb-8 font-body leading-relaxed">
