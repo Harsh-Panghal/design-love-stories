@@ -20,7 +20,7 @@ export function ContactSection() {
             Book Your Design
           </Link>
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/919457105644"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3.5 rounded-full border-2 border-sage text-sage font-medium text-sm tracking-wide hover:bg-sage hover:text-ivory transition-all"
@@ -30,7 +30,7 @@ export function ContactSection() {
         </div>
         <div className="mt-10 flex items-center justify-center gap-6">
           <a
-            href="https://instagram.com/pixelandpetal"
+            href="https://www.instagram.com/pixel.petal.designs?igsh=MW1tczRzOHZ6YjBobQ=="
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-gold transition-colors"

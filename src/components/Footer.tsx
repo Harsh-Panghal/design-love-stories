@@ -47,7 +47,7 @@ export function Footer() {
 
           <div className="flex items-center gap-4 mb-4">
             <a
-              href="https://instagram.com/pixelandpetal"
+              href="https://www.instagram.com/pixel.petal.designs?igsh=MW1tczRzOHZ6YjBobQ=="
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Pixel & Petal on Instagram"
@@ -58,7 +58,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/919457105644"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Contact Pixel & Petal on WhatsApp"
