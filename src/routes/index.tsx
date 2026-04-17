@@ -18,7 +18,7 @@ const organizationSchema = {
   "logo": "https://storage.googleapis.com/gpt-engineer-file-uploads/HqACFkQqQCdkhZHXVIbyajne1Ed2/social-images/social-1776235227555-pixel_petal_no_bg.webp",
   "description": "Pixel & Petal is a custom digital wedding design studio specializing in e-invites, wedding monograms, digital caricatures, party stationery, and full branding packages.",
   "sameAs": [
-    "https://instagram.com/pixelandpetal"
+    "https://www.instagram.com/pixel.petal.designs"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
