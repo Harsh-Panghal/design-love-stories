@@ -18,12 +18,18 @@ export function Navbar() {
             {["Services", "Portfolio", "Process", "Testimonials"].map((item) => (
               <a
                 key={item}
-                href={`#${item.toLowerCase()}`}
+                href={`/#${item.toLowerCase()}`}
                 className="text-sm font-body tracking-wide text-muted-foreground hover:text-gold transition-colors"
               >
                 {item}
               </a>
             ))}
+            <Link
+              to="/blog"
+              className="text-sm font-body tracking-wide text-muted-foreground hover:text-gold transition-colors"
+            >
+              Blog
+            </Link>
             <Link
               to="/enquire"
               className="px-5 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity"
@@ -51,13 +57,20 @@ export function Navbar() {
           {["Services", "Portfolio", "Process", "Testimonials"].map((item) => (
             <a
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={`/#${item.toLowerCase()}`}
               onClick={() => setOpen(false)}
               className="block py-2 text-sm text-muted-foreground hover:text-gold transition-colors"
             >
               {item}
             </a>
           ))}
+          <Link
+            to="/blog"
+            onClick={() => setOpen(false)}
+            className="block py-2 text-sm text-muted-foreground hover:text-gold transition-colors"
+          >
+            Blog
+          </Link>
           <Link
             to="/enquire"
             onClick={() => setOpen(false)}
