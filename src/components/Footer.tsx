@@ -28,6 +28,14 @@ export function Footer() {
               ))}
               <li>
                 <Link
+                  to="/blog"
+                  className="text-xs font-body tracking-wider text-muted-foreground hover:text-gold transition-colors uppercase"
+                >
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/enquire"
                   className="text-xs font-body tracking-wider text-gold hover:text-primary transition-colors uppercase font-medium"
                 >
